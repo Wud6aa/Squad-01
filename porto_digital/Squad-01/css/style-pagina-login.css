@@ -13,7 +13,7 @@ form {
 
 input {
     border-radius: 51px;
-    border: 0px  none;
+    border: 0px none;
     width: 25%;
     height: 35px;
 }
@@ -32,7 +32,7 @@ a {
 
 button {
     border-radius: 51px;
-    border: 0px  none;
+    border: 0px none;
     width: 9%;
     height: 35px;
     background: #EA222F;

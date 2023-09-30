@@ -1,5 +1,4 @@
-
-.navbar{
+.navbar {
     background-color: #204AC8 !important;
     border-bottom: 12px solid #EA222F !important;
     color: white;
@@ -7,14 +6,14 @@
     display: flex !important;
     justify-content: space-between !important;
 }
- 
-.logo a img{
+
+.logo a img {
     margin-top: 15px !important;
     margin-left: 20px !important;
     margin-bottom: 5px !important;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: white;
     text-align: center;
@@ -22,7 +21,16 @@
     float: right;
 }
 
-.nav{
-    margin: 15px!important;
-    padding: 15px!important;
+.menu {
+    margin: 15px !important;
+    padding: 15px !important;
+}
+
+.menu a:hover {
+    color: #EA222F !important;
+}
+
+.logo {
+    width: 40%;
+    float: auto;
 }
