@@ -40,3 +40,14 @@ button {
     padding: auto;
     margin: 5px;
 }
+
+input[type="submit"] {
+    border-radius: 51px;
+    border: 0px none;
+    width: 9%;
+    height: 35px;
+    background: #EA222F;
+    color: white;
+    padding: auto;
+    margin: 5px;
+}
