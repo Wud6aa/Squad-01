@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #DFDFDF;
+    background-color: #dfdfdf !important;
 }
 
 .navbar,
@@ -89,4 +89,42 @@ section div .trocar {
 
 .area_img_e_textos {
     justify-content: space-around !important;
+}
+
+.area_texto_nossos_tratamentos {
+    text-align: center;
+    color: #204AC8;
+}
+
+section {
+    margin-top: 15px;
+}
+
+header+.area-total-img-odontologia {
+    margin: auto;
+}
+
+.area_total_imagens_tratamentos {
+    text-align: center;
+}
+
+.area_total_imagens_tratamentos .linha1_imagens {
+    margin: 50px;
+}
+
+.linha1_imagens+.linha2_imagens {
+    margin: 50px;
+}
+
+.rodape {
+    background-color: #204AC8 !important;
+    border-top: 12px solid #EA222F !important;
+    color: white;
+    text-align: left;
+    display: block !important;
+    justify-content: space-between !important;
+}
+
+.area-contato {
+    display: flex !important;
 }
