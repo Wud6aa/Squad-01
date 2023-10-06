@@ -52,16 +52,13 @@ input[type="submit"] {
     margin: 5px;
 }
 
-.link_cadastro {
+#link_cadastro {
     text-decoration: none;
+    color: #EBE815;
+    width: 150px;
+    color: #fff;
+    background-color: #EA222F;
     border-radius: 51px;
-    border: 0px none;
-    width: auto;
-    height: 150px;
-    background: #EA222F;
-    color: white;
-    padding: auto;
-    margin: 5px;
 }
 
 /* form .input_nome,
@@ -71,3 +68,7 @@ form .input_senha {
     margin: 15px;
     margin-left: 350px;
 } */
+
+p {
+    color: #fff;
+}
