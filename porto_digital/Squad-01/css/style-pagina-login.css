@@ -16,11 +16,16 @@ input {
     border: 0px none;
     width: 25%;
     height: 35px;
-    cursor: pointer;
+    text-align: center;
 }
 
 input::placeholder {
     text-align: center;
+}
+
+.botao input:hover{
+    color: #EBE815 !important;
+    border: 2px solid #EBE815 !important;
 }
 
 .esqueceu_a_senha {
@@ -40,6 +45,11 @@ button {
     color: white;
     padding: auto;
     margin: 5px;
+}
+
+button:hover{
+    color: #EBE815;
+    border: 2px solid #EBE815 !important;
 }
 
 input[type="submit"] {
