@@ -1,11 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Inicial</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
+
 <body>
-    
+    <header class="heading">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" class="logo" alt="logo tiradentes"></a>
+
+            </div>
+            <div class="menu">
+                <nav class="nav">
+                    <a href="#" class="nav-link">Quem somos </a>
+                    <a href="#" class="nav-link">Tratamentos</a>
+                    <a href="#" class="nav-link">Clínicas</a>
+                    <a href="#" class="nav-link">Blog</a>
+                </nav>
+            </div>
+            <div class="imagens">
+                <a href="#" target="_blank" rel="external"> <img src="image-instagram.png" alt="img-instagram" class="instagram"></a>
+                <a href="#" target="_blank" rel="external"><img src="image-facebook.png" alt="img-facebook" class="facebook"></a>
+                <a href="#" target="_blank" rel="external"><img src="image-twitter.png" alt="img-twitter" class="twitter"></a>
+                <a href="#" target="_blank" rel="external"><img src="image-linkedin.png" alt="img-linkedin" class="linkedin"></a>
+                <a href="#" target="_blank" rel="external"><img src="image-youtube.png" alt="img-youtube" class="youtube"></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="area-total-img-odontologia">
+        <div class="area-img-odontologia">
+            <img src="img-atendimento-odontologia.png" alt="img-odontologia" class="img-odontologia">
+            <div class="atendimento">
+                <div class="title">
+                    <h1>Agende sua consulta agr!!</h1>
+                </div>
+                <div class="input">
+                    <div class="label">
+                        <label>Estado</label>
+                        <label>Cidade</label>
+                        <label>Unidade</label>
+                    </div>
+                    <div class="select">
+                        <select name="Informar"></select>
+                        <select name="Informar"></select>
+                        <select name="Informar"></select>
+                        <button type="button" onclick="Enviar()">aaaaaaaaaaa</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="area-video-e-texto">
+        <iframe width="560" height="250" src="https://www.youtube.com/embed/VVjFjmu9wmw?si=19MQqPy-14i2DywC"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen class="video"></iframe>
+
+        <div class="area-texto">
+            <h2 class="texto">A clínica-escola é um dos maiores diferenciais do curso de Odontologia da Unit.
+            </h2>
+            <h2 class="texto">Além de ser a maior de toda a região Nordeste, a clínica insere o estudante na prática da
+                profissão, por meio de atendimento odontológico.
+            </h2>
+            <h2 class="texto">É também por meio da clínica-escola que os professores estimulam e orientam o progresso
+                constante da ciência, mentorando projetos de pesquisa e elaboração de novas técnicas pedagógicas.
+            </h2>
+        </div>
+
+    </section>
+    <br>
+    <section class="area_sobre_nos">
+        <div class="area_texto_sobre_nos">
+            <h2 class="texto_sobre_nos">Sobre nós</h2>
+        </div>
+
+        <div class="area_img_e_textos">
+            <div class="area_regiao_nordeste">
+                <div class="area-img-regiao-nordeste">
+                    <img src="img-regiao-nordeste.png" alt="img-regiao-nordeste" class="img_regiao_nordeste">
+                    <p>A maior de toda região nordeste</p>
+                </div>
+            </div>
+            <div class="area_comunidade">
+                <div class="area_img_comunidade">
+                    <img src="img-comunidade.png" alt="img-comunidade">
+                    <p>Promove uma integração com a comunidade</p>
+                </div>
+            </div>
+            <div class="area_inovacao">
+                <div class="area_img_inovacao">
+                    <img src="image.png" alt="img-inovação">
+                    <p>Mentoria de pesquisa e elaboração de novas técnicas pedagógicas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="area_nosos_tratamentos">
+        <div class="area_texto_nossos_tratamentos">
+            <h2>Nossos Tratamentos:</h2>
+        </div>
+
+        <div class="area_total_imagens_tratamentos">
+            <div class="linha1_imagens">
+                <img src="image_cirurgia.png" alt="img-cirurgia" class="cirurgia">
+                <img src="image_endodontia.png" alt="img-endodontia" class="endodontia">
+                <img src="image_protese.png" alt="img-protese" class="protese"> 
+            </div>
+            <div class="linha2_imagens">
+                <img src="image_radiologia.png" alt="img-radiologia" class="radiologia">
+                <img src="image_odontopediatria.png" alt="img-odontopediatria" class="odontopediatria">
+                <img src="image-periodontia.png" alt="img-periodontia" class="periodontia">
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <h2>Fale Conosco:</h2>
+        <div class="area-contato">
+            <img src="image-telefone.png" alt="img-telefone">
+            <h3>0800 729 2100</h3>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
