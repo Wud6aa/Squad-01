@@ -51,24 +51,3 @@ input[type="submit"] {
     padding: auto;
     margin: 5px;
 }
-
-#link_cadastro {
-    text-decoration: none;
-    color: #EBE815;
-    width: 150px;
-    color: #fff;
-    background-color: #EA222F;
-    border-radius: 51px;
-}
-
-/* form .input_nome,
-form .input_senha {
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-    margin-left: 350px;
-} */
-
-p {
-    color: #fff;
-}
