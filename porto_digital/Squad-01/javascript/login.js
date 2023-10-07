@@ -1,11 +1,11 @@
-function TelaCadastro(){
-    location.href = "Cadastro.html"
+function TelaCadastro() {
+    location.href = "pagina_cadastro.html"
 }
 
-function PáginaInicial(){
+function PáginaInicial() {
     location.href = "index.html"
 }
 
-function PáginaLogin(){
+function PáginaLogin() {
     location.href = "pagina-login.html"
 }

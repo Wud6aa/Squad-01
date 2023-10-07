@@ -42,45 +42,45 @@ body {
 }
 
 /* Aumenta Escala no hover */
-.instagram:hover{
+.instagram:hover {
     transform: scale(1.2);
 }
 
-.facebook:hover{
+.facebook:hover {
     transform: scale(1.2);
 }
 
-.twitter:hover{
+.twitter:hover {
     transform: scale(1.2);
 }
 
-.linkedin:hover{
+.linkedin:hover {
     transform: scale(1.2);
 }
 
-.youtube:hover{
+.youtube:hover {
     transform: scale(1.2);
 }
 
 /*Barra de Atendimento */
-.atendimento{
+.atendimento {
     display: grid;
     justify-content: space-around;
 }
-.label{
-    display: flex;
-    justify-content: space-around;
-    border: ;
-}
 
-.select{
+.label {
     display: flex;
     justify-content: space-around;
 }
 
-.select select{
+.select {
+    display: flex;
+    justify-content: space-around;
 }
-.select button{
+
+.select select {}
+
+.select button {
     border-radius: 100%;
     height: 50px;
     color: white;
@@ -165,27 +165,27 @@ header+.area-total-img-odontologia {
 
 /* Aumento da escala dos serviços */
 
-.cirurgia:hover{
+.cirurgia:hover {
     transform: scale(1.1);
 }
 
-.endodontia:hover{
+.endodontia:hover {
     transform: scale(1.1);
 }
 
-.protese:hover{
+.protese:hover {
     transform: scale(1.1);
 }
 
-.radiologia:hover{
+.radiologia:hover {
     transform: scale(1.1);
 }
 
-.odontopediatria:hover{
+.odontopediatria:hover {
     transform: scale(1.1);
 }
 
-.periodontia:hover{
+.periodontia:hover {
     transform: scale(1.1);
 }
 
@@ -205,6 +205,6 @@ header+.area-total-img-odontologia {
     display: flex !important;
 }
 
-.area-contato img{
+.area-contato img {
     height: 0.5%;
 }
