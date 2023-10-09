@@ -51,13 +51,32 @@
                 </div>
                 <div class="input">
                     <div class="label">
-                        <label>Estado</label>
+                        <label for="estados">Estado</label>
+                        <select name="estados" class="estados">
+                            <optgroup class="regiao-nordeste" label="Nordeste">
+                                <option value="sergipe">Sergipe</option>
+                                <option value="alagoas">Alagoas</option>
+                            </optgroup>
+                            <optgroup label="Norte">
+                                <option value="amazonas">Amazonas</option>
+                                <option value="para">Pará</option>
+                            </optgroup>
+                        </select>
+
                         <label>Cidade</label>
+                        <select name="cidades" id="cidades">
+                            <optgroup label="cidade">
+                                <option value="aracaju">Aracaju</option>
+                                <option value="maceio">Maceió</option>
+                            </optgroup>
+                        </select>
                         <label>Unidade</label>
                     </div>
                     <div class="select">
 
-                        <select name="Informar"></select>
+                        <select name="Informar">
+                            <option value=""></option>
+                        </select>
                         <select name="Informar"></select>
                         <select name="Informar"></select>
                         <button type="button" onclick="Enviar()">aaaaaaaaaaa</button>

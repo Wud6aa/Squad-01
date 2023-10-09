@@ -208,3 +208,8 @@ header+.area-total-img-odontologia {
 .area-contato img {
     height: 0.5%;
 }
+
+.area-total-agendamento {
+    display: flex;
+    flex-direction: column;
+}
