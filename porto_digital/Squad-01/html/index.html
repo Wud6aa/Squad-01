@@ -47,40 +47,41 @@
             <img src="../img/img-atendimento-odontologia.png" alt="img-odontologia" class="img-odontologia">
             <div class="atendimento">
                 <div class="title">
-                    <h1>Agende sua consulta agr!!</h1>
+                    <h1 class="texto-agendamento">Agende sua consulta agora!!</h1>
                 </div>
                 <div class="input">
                     <div class="label">
                         <label for="estados">Estado</label>
-                        <select name="estados" class="estados">
-                            <optgroup class="regiao-nordeste" label="Nordeste">
+                        <select name="estados" class="estados botao" >
+                            <optgroup class="regiao-nordeste botao" label="Nordeste">
+                                <option value="nenhuma_das_opcoes_nordeste"></option>
                                 <option value="sergipe">Sergipe</option>
                                 <option value="alagoas">Alagoas</option>
                             </optgroup>
-                            <optgroup label="Norte">
+                            <optgroup label="Norte" class="">
                                 <option value="amazonas">Amazonas</option>
                                 <option value="para">Pará</option>
                             </optgroup>
                         </select>
 
                         <label>Cidade</label>
-                        <select name="cidades" id="cidades">
-                            <optgroup label="cidade">
+                        <select name="cidades" id="cidades" class="botao">
+                            <optgroup label="Cidade">
+                                <option value="nenhuma_das_opções_cidade"></option>
                                 <option value="aracaju">Aracaju</option>
                                 <option value="maceio">Maceió</option>
                             </optgroup>
                         </select>
-                        <label>Unidade</label>
-                    </div>
-                    <div class="select">
 
-                        <select name="Informar">
-                            <option value=""></option>
-                        </select>
-                        <select name="Informar"></select>
-                        <select name="Informar"></select>
-                        <button type="button" onclick="Enviar()">aaaaaaaaaaa</button>
-                    </div>
+                        <label>Unidade</label>
+                        <select name="unidade" id="unidade" class="botao">
+                        <optgroup>
+                            <option value="nenhuma_das_opcoes_unidade"></option>
+                            <option value="rua_abc">Rua ABC</option>
+                        </optgroup>
+                    </select>
+                    
+                    <button type="button" onclick="Enviar()" class="button_enviar">Enviar</button>
                 </div>
             </div>
         </div>
