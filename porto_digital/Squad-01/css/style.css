@@ -20,8 +20,8 @@ body {
 
 .logo a img {
     margin-top: 15px !important;
-    margin-left: 20px !important;
     margin-bottom: 5px !important;
+    margin-left: auto  !important;
 }
 
 .menu a {
@@ -41,6 +41,9 @@ body {
     color: #EA222F !important;
 }
 
+.imagens a img{
+    height: 30px;
+}
 /* Aumenta Escala no hover */
 .instagram:hover {
     transform: scale(1.2);
@@ -95,7 +98,7 @@ body {
 
 .img-odontologia {
     width: 100%;
-    height: 255px;
+    height: 450px;
 }
 
 .area-video-e-texto {
