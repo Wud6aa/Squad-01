@@ -255,8 +255,11 @@ div .button_enviar {
 	width: 400px ;
     height: 150px;
     border-radius: 20px;
-    
-    
+    background-color: rgb(255, 255, 255);
+}
 
-	background-color: rgb(255, 255, 255);
+#elemento-rolagem{
+    position: fixed;
+    top: 90%;
+    right: 10px;
 }
