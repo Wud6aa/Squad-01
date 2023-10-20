@@ -281,9 +281,7 @@ div .button_enviar {
     margin-top: 50px;
 }
 
-.bi-envelope {
-    right: 5px;
-}
+
 
 .circulo {
 	width: 50px;
@@ -298,4 +296,8 @@ div .button_enviar {
     margin-bottom: -25px;
     margin-left: 9px;
     color: #fff;
+}
+
+.bi-arrow-right {
+    margin: 10px 0 15px 0px;
 }
