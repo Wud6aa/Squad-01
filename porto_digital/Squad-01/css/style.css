@@ -269,6 +269,7 @@ div .button_enviar {
 }
 
 
+
 .quadrado-maior {
     background-color: #fff;
     width: 600px;
@@ -278,4 +279,8 @@ div .button_enviar {
 
 .inputs {
     margin-top: 50px;
+}
+
+.bi-envelope {
+    right: 5px;
 }
