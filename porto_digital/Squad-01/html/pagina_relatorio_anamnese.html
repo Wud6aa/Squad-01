@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório Anamnese</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/style-pagina-relatorio-anamnese.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="heading">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html" style="margin-right: 600px;">
+                    <img src="../img/logo-removebg-preview.png" class="logo" alt="logo tiradentes"></a>
+
+            </div>
+            <div class="menu">
+                <nav class="nav" style="margin-left: -550px; font-size: 20px;">
+                    <a href="#" class="nav-link">Quem somos </a>
+                    <a href="#" class="nav-link">Tratamentos</a>
+                    <a href="#" class="nav-link">Clínicas</a>
+                    <a href="#" class="nav-link">Blog</a>
+                </nav>
+            </div>
+            <div class="imagens" style="margin-right: 100px;">
+                <a href="#" target="_blank" rel="external"> <img src="../img/image-instagram.png" alt="img-instagram"
+                        class="instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100063854833671" target="_blank" rel="external"><img
+                        src="../img/image-facebook.png" alt="img-facebook" class="facebook"></a>
+                <a href="#" target="_blank" rel="external"><img src="../img/image-twitter.png" alt="img-twitter"
+                        class="twitter"></a>
+                <a href="https://br.linkedin.com/company/grupo-tiradentes" target="_blank" rel="external"><img
+                        src="../img/image-linkedin.png" alt="img-linkedin" class="linkedin"></a>
+                <a href="#" target="_blank" rel="external"><img src="../img/image-youtube.png" alt="img-youtube"
+                        class="youtube"></a>
+            </div>
+        </div>
+    </header>
+    <section class="area-toral-relatorio-anamnese">
+        <h1 style="font-size: 20px;">Relatório de Anamnese</h1>
+        <form action="processar_anamnese.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco"><br><br>
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro"><br><br>
+
+            <label for="tel_com">Tel. Com.:</label>
+            <input type="text" id="tel_com" name="tel_com"><br><br>
+
+            <label for="tel_res">Tel. Res.:</label>
+            <input type="text" id="tel_res" name="tel_res"><br><br>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep"><br><br>
+
+            <label for="tel_cel">Tel. Cel.:</label>
+            <input type="text" id="tel_cel" name="tel_cel"><br><br>
+
+            <p>(Todas as informações contidas neste formulário serão mantidas em sigilo absoluto.)</p>
+
+            <label for="tratamento_medico">Está em tratamento médico?</label>
+            <input type="radio" id="tratamento_sim" name="tratamento_medico" value="SIM">
+            <label for="tratamento_sim">SIM</label>
+            <input type="radio" id="tratamento_nao" name="tratamento_medico" value="NÃO">
+            <label for="tratamento_nao">NÃO</label><br><br>
+
+            <label for="gravidez">Está grávida?</label>
+            <input type="radio" id="gravida_sim" name="gravidez" value="SIM">
+            <label for="gravida_sim">SIM</label>
+            <input type="radio" id="gravida_nao" name="gravidez" value="NÃO">
+            <label for="gravida_nao">NÃO</label><br><br>
+
+            <label for="motivo_gravidez">MOTIVO:</label>
+            <input type="text" id="motivo_gravidez" name="motivo_gravidez"><br><br>
+
+            <label for="meses_gravidez">QUANTOS MESES?</label>
+            <input type="text" id="meses_gravidez" name="meses_gravidez"><br><br>
+
+            <label for="regime">Está fazendo algum regime?</label>
+            <input type="radio" id="regime_sim" name="regime" value="SIM">
+            <label for="regime_sim">SIM</label>
+            <input type="radio" id="regime_nao" name="regime" value="NÃO">
+            <label for="regime_nao">NÃO</label><br><br>
+
+            <label for="diabetes">Possui diabetes?</label>
+            <input type="radio" id="diabetes_sim" name="diabetes" value="SIM">
+            <label for="diabetes_sim">SIM</label>
+            <input type="radio" id="diabetes_nao" name="diabetes" value="NÃO">
+            <label for="diabetes_nao">NÃO</label><br><br>
+
+            <label for="alergias">Tem alergias?</label>
+            <input type="radio" id="alergias_sim" name="alergias" value="SIM">
+            <label for="alergias_sim">SIM</label>
+            <input type="radio" id="alergias_nao" name="alergias" value="NÃO">
+            <label for="alergias_nao">NÃO</label><br><br>
+
+            <label for="alergias_descricao">A QUE?</label>
+            <input type="text" id="alergias_descricao" name="alergias_descricao"><br><br>
+
+            <label for="febre_reumatica">Febre reumática?</label>
+            <input type="radio" id="febre_reumatica_sim" name="febre_reumatica" value="SIM">
+            <label for="febre_reumatica_sim">SIM</label>
+            <input type="radio" id="febre_reumatica_nao" name="febre_reumatica" value="NÃO">
+            <label for="febre_reumatica_nao">NÃO</label><br><br>
+
+            <label for="coagulacao">Problemas de coagulação?</label>
+            <input type="radio" id="coagulacao_sim" name="coagulacao" value="SIM">
+            <label for="coagulacao_sim">SIM</label>
+            <input type="radio" id="coagulacao_nao" name="coagulacao" value="NÃO">
+            <label for="coagulacao_nao">NÃO</label><br><br>
+
+            <label for="cardiovascular">Doença cárdio vascular?</label>
+            <input type="radio" id="cardiovascular_sim" name="cardiovascular" value="SIM">
+            <label for="cardiovascular_sim">SIM</label>
+            <input type="radio" id="cardiovascular_nao" name="cardiovascular" value="NÃO">
+            <label for="cardiovascular_nao">NÃO</label><br><br>
+
+            <label for="hemorragicos">Problemas hemorrágicos?</label>
+            <input type="radio" id="hemorragicos_sim" name="hemorragicos" value="SIM">
+            <label for="hemorragicos_sim">SIM</label>
+            <input type="radio" id="hemorragicos_nao" name="hemorragicos" value="NÃO">
+            <label for="hemorragicos_nao">NÃO</label><br><br>
+
+            <label for="anestesia">Problemas com anestesia?</label>
+            <input type="radio" id="anestesia_sim" name="anestesia" value="SIM">
+            <label for="anestesia_sim">SIM</label>
+            <input type="radio" id="anestesia_nao" name="anestesia" value="NÃO">
+            <label for="anestesia_nao">NÃO</label><br><br>
+            <button type="button" class="button">Confirmar agendamento</button>
+        </form>
+    </section>
+
+    <footer class="rodape">
+        <h2>Fale Conosco:</h2>
+        <div class="area-contato">
+            <img src="../img/image-telefone.png" alt="img-telefone">
+            <h3>0800 729 2100</h3>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="../javascript/index.js"></script>
+
+</body>
+
+</html>
