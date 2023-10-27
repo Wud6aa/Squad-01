@@ -315,9 +315,13 @@ section .button {
     background-color: rgb(53, 118, 240);
     color: #dfdfdf;
     border: none;
-
+    text-align: center;
 }
 
 .area-toral-relatorio-anamnese {
+    text-align: center;
+}
+
+section .button {
     text-align: center;
 }
