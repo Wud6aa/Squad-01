@@ -43,105 +43,281 @@
         </div>
     </header>
     <section class="area-toral-relatorio-anamnese">
-        <h1 style="font-size: 20px;">Relatório de Anamnese</h1>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required><br><br>
-
-            <label for="endereco">Endereço:</label>
-            <input type="text" id="endereco" name="endereco"><br><br>
-
-            <label for="bairro">Bairro:</label>
-            <input type="text" id="bairro" name="bairro"><br><br>
-
-            <label for="tel_com">Tel. Com.:</label>
-            <input type="text" id="tel_com" name="tel_com"><br><br>
-
-            <label for="tel_res">Tel. Res.:</label>
-            <input type="text" id="tel_res" name="tel_res"><br><br>
-
-            <label for="cep">CEP:</label>
-            <input type="text" id="cep" name="cep"><br><br>
-
-            <label for="tel_cel">Tel. Cel.:</label>
-            <input type="text" id="tel_cel" name="tel_cel"><br><br>
-
-            <p>(Todas as informações contidas neste formulário serão mantidas em sigilo absoluto.)</p>
-
-            <label for="tratamento_medico">Está em tratamento médico?</label>
-            <input type="radio" id="tratamento_sim" name="tratamento_medico" value="SIM">
-            <label for="tratamento_sim">SIM</label>
-            <input type="radio" id="tratamento_nao" name="tratamento_medico" value="NÃO">
-            <label for="tratamento_nao">NÃO</label><br><br>
-
-            <label for="gravidez">Está grávida?</label>
-            <input type="radio" id="gravida_sim" name="gravidez" value="SIM">
-            <label for="gravida_sim">SIM</label>
-            <input type="radio" id="gravida_nao" name="gravidez" value="NÃO">
-            <label for="gravida_nao">NÃO</label><br><br>
-
-            <label for="motivo_gravidez">MOTIVO:</label>
-            <input type="text" id="motivo_gravidez" name="motivo_gravidez"><br><br>
-
-            <label for="meses_gravidez">QUANTOS MESES?</label>
-            <input type="text" id="meses_gravidez" name="meses_gravidez"><br><br>
-
-            <label for="regime">Está fazendo algum regime?</label>
-            <input type="radio" id="regime_sim" name="regime" value="SIM">
-            <label for="regime_sim">SIM</label>
-            <input type="radio" id="regime_nao" name="regime" value="NÃO">
-            <label for="regime_nao">NÃO</label><br><br>
-
-            <label for="diabetes">Possui diabetes?</label>
-            <input type="radio" id="diabetes_sim" name="diabetes" value="SIM">
-            <label for="diabetes_sim">SIM</label>
-            <input type="radio" id="diabetes_nao" name="diabetes" value="NÃO">
-            <label for="diabetes_nao">NÃO</label><br><br>
-
-            <label for="alergias">Tem alergias?</label>
-            <input type="radio" id="alergias_sim" name="alergias" value="SIM">
-            <label for="alergias_sim">SIM</label>
-            <input type="radio" id="alergias_nao" name="alergias" value="NÃO">
-            <label for="alergias_nao">NÃO</label><br><br>
-
-            <label for="alergias_descricao">A QUE?</label>
-            <input type="text" id="alergias_descricao" name="alergias_descricao"><br><br>
-
-            <label for="febre_reumatica">Febre reumática?</label>
-            <input type="radio" id="febre_reumatica_sim" name="febre_reumatica" value="SIM">
-            <label for="febre_reumatica_sim">SIM</label>
-            <input type="radio" id="febre_reumatica_nao" name="febre_reumatica" value="NÃO">
-            <label for="febre_reumatica_nao">NÃO</label><br><br>
-
-            <label for="coagulacao">Problemas de coagulação?</label>
-            <input type="radio" id="coagulacao_sim" name="coagulacao" value="SIM">
-            <label for="coagulacao_sim">SIM</label>
-            <input type="radio" id="coagulacao_nao" name="coagulacao" value="NÃO">
-            <label for="coagulacao_nao">NÃO</label><br><br>
-
-            <label for="cardiovascular">Doença cárdio vascular?</label>
-            <input type="radio" id="cardiovascular_sim" name="cardiovascular" value="SIM">
-            <label for="cardiovascular_sim">SIM</label>
-            <input type="radio" id="cardiovascular_nao" name="cardiovascular" value="NÃO">
-            <label for="cardiovascular_nao">NÃO</label><br><br>
-
-            <label for="hemorragicos">Problemas hemorrágicos?</label>
-            <input type="radio" id="hemorragicos_sim" name="hemorragicos" value="SIM">
-            <label for="hemorragicos_sim">SIM</label>
-            <input type="radio" id="hemorragicos_nao" name="hemorragicos" value="NÃO">
-            <label for="hemorragicos_nao">NÃO</label><br><br>
-
-            <label for="anestesia">Problemas com anestesia?</label>
-            <input type="radio" id="anestesia_sim" name="anestesia" value="SIM">
-            <label for="anestesia_sim">SIM</label>
-            <input type="radio" id="anestesia_nao" name="anestesia" value="NÃO">
-            <label for="anestesia_nao">NÃO</label><br><br><br>
-            <div>
-            <button type="button" class="button" onclick="msg_confirmacao()" style="margin-left: 880px;">Confirmar agendamento</button></div>
-            
-            <p id="result"></p>
-        </form>
-    </section>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Primeiro Nome</label>
+              <input type="text" class="form-control" id="validationCustom01"  required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" id="validationCustom02" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Email</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">Estado</label>
+              <select class="form-select" id="validationCustom04" required>
+                <option selected disabled value="">Escolha...</option>
+                <option>Sergipe</option>
+                <option>Alagoas</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom05" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="validationCustom05" required>
+              <div class="invalid-feedback">
+                Please provide a valid zip.
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Concordo com os termos de serviço
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <label>Está em tratamento médico?</label>
+            <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Está grávida?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Está fazendo algum regime?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Possui diabetes?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <div class="d-flex">
+                  <label>Tem alergias?</label>
+                  <div class="form-check d-flex justify-content-center">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Sim
+                    </label>
+                  </div>
+                  <div class="form-check d-flex justify-content-center">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Não
+                    </label>
+                  </div>
+              </div>
+              <label>Febre reumática?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Problemas de coagulação?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Doença cárdio vascular?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Problemas hemorrágicos?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Problemas com anestesia?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Alergia a medicamentos?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Teve hepatite?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>É portador do vírus HIV?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Usa ou já usou drogas?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Sim
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Não                               
+                </label>
+              </div>
+              <label>Pressão arterial:</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Normal
+                </label>
+              </div>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">                       
+                  Alta                            
+                </label>
+              </div>
+              <label>Problemas respiratórios?</label>
+              <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Doenças na família? Quais?
+                </label>
+              </div>
+              <!-- <div class="input-group">
+                <div class="input-group-text">
+                  <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with radio button">
+              </div> -->
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Confirmar agendamento!</button>
+            </div>
+          </form>
 
     <footer class="rodape">
         <h2>Fale Conosco:</h2>

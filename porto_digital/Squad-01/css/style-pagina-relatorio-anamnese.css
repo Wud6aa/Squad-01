@@ -18,17 +18,9 @@ body {
     justify-content: space-between !important;
 }
 
-.texto-agendamento {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 7px;
-    color: #204AC8;
-}
 
-.logo a img {
-    margin-top: 15px !important;
-    margin-bottom: 5px !important;
-    margin-left: auto !important;
+.teste {
+    justify-content: center !important; 
 }
 
 .menu a {
@@ -315,4 +307,9 @@ section .button {
 
 section .button {
     text-align: center;
+}
+
+input {
+    border-radius: 51px;
+    border: none;
 }
