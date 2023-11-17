@@ -1,7 +1,3 @@
-# Squad-01
-Códigos utilizados para a disciplina de Residência em Software do Squad 01
-
-#Criação do código html
-Criação do github e do código html
-
-#teste
+<h1> Site de Odontologia</h1>
+<hr>
+<h3>Fomos desafiados pelo Grupo Tiradentes para criar um site de Odontologia para clientes e estudantes</h3>
