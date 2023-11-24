@@ -34,7 +34,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## 📌 Versão
 
-1.0v
+1.1v
 
 ## ✒️ Autores
 
