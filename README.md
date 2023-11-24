@@ -1,7 +1,5 @@
 # Site de Odontologia
 
-Fomos desafiados pelo Grupo Tiradentes para criar um site de Odontologia para indivíduos que necessitam de atendimento odontológico
-
 ## 🚀 Começando
 
 Fomos desafiados pelo Grupo Tiradentes para criar um site de Odontologia para indivíduos que necessitam de atendimento odontológico.
