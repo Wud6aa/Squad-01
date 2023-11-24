@@ -331,3 +331,8 @@ div .button_enviar {
 .input_outro::placeholder {
     color: #000;
 }
+
+.profile-icon {
+    margin: 7px 0 0 10px;
+    color: red;
+}

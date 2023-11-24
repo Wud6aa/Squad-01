@@ -314,3 +314,8 @@ div .button_enviar {
 .area-opt_servicos {
     margin: 50px;
 }
+
+.profile-icon {
+    margin: 7px 0 0 10px;
+    color: red;
+}
