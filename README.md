@@ -6,8 +6,6 @@ Fomos desafiados pelo Grupo Tiradentes para criar um site de Odontologia para in
 
 Fomos desafiados pelo Grupo Tiradentes para criar um site de Odontologia para indivíduos que necessitam de atendimento odontológico.
 
-Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
-
 ### 📋 Pré-requisitos
 
 De que coisas você precisa para instalar o software e como instalá-lo?
@@ -32,7 +30,9 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## 🖇️ Colaborando
 
-1
+* **[Adolfo Guimarães](https://github.com/adolfoguimaraes)** - Mentor 
+* **[Ricardo Porto](#)** - Mentor
+* **[Danilo Macedo](#)** - Mentor
 
 ## 📌 Versão
 
@@ -46,12 +46,12 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 * **Guilherme Fontes Gonzales** – Desenvolvimento e Design
 
-* **Luis Eduardo Cunha Martins** - 
+* **Luis Eduardo Cunha Martins** - Desenvolvimento
 
-* **Yuri Ferro Soares** - 
+* **Yuri Ferro Soares** - Desenvolvimento
 
 * **William Batista Andrade Santana** – Desenvolvimento
 
 * **Mateus Mello Santos** – Desenvolvimento e Design
 
-* **João Enzo Vieira da Penha** -
+* **João Enzo Vieira da Penha** - Desenvolvimento
